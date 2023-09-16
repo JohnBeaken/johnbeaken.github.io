@@ -1,0 +1,44 @@
+/* Universal Settings */
+* {
+  margin: 0;
+  padding: 0;
+  background-color: azure;
+  font-family: Georgia, serif;
+}
+
+body {
+  margin: auto;
+  width: 80%;
+  text-align: center;
+}
+
+header {
+  border-bottom: 1px solid black;
+  margin: 2em;
+}
+
+h2 {
+  margin: 0.5em 0;
+}
+
+/* Table Settings */
+table {
+  border: 2px solid skyblue;
+  margin: 0.5em 0;
+  width: 100%;
+}
+
+th {
+  background-color: orange;
+}
+
+td {
+  border: 1px solid blue;
+  background-color: beige;
+  padding: 0.25em;
+}
+
+.code {
+  font-family: monospace, sans-serif;
+  background-color: grey;
+}
