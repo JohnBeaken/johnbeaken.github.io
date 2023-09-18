@@ -1,0 +1,95 @@
+/* Universal Styles */
+div {
+  border: 2px solid black;
+  padding: 1em;
+  margin: 2em;
+}
+
+h1 {
+  text-align: center;
+}
+
+h3 {
+  text-decoration: underline;
+}
+
+/* Color Section */
+.colors div {
+  text-align: center;
+  width: 100px;
+  display: inline-block;
+  margin: 10px;
+}
+
+div.colorname {
+  padding: 0;
+  margin: 0;
+  border: none;
+}
+
+div.colorcode {
+  margin: 0;
+  padding: 0;
+}
+
+#black {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+#black .colorcode {
+  border: 2px solid white;
+}
+
+#white {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+#gray {
+  background-color: #808080;
+  color: #000000;
+}
+
+/* Fonts Section */
+.georgia {
+  font-family: Georgia;
+}
+
+.courierNew {
+  font-family: "Courier New";
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.italic {
+  font-style: italic;
+}
+
+/* Text Styles Section */
+.textStyles li {
+  font-family: "Courier New";
+}
+
+.textStyles h1 {
+  text-align: right;
+  font-family: Georgia;
+  text-decoration: underline;
+  font-style: italic;
+  font-size: 1.75em;
+}
+
+.textStyles h2 {
+  text-align: right;
+  font-family: Georgia;
+  font-style: italic;
+  font-size: 1.25em;
+}
+
+.textStyles p {
+  text-align: justify;
+  font-family: "Courier New";
+  font-size: 1em;
+}
